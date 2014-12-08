@@ -8,10 +8,12 @@
 
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-6">
       <ul class="nav navbar-nav">
-        <li ng-repeat="item in navbarCtrl.items">
+        <li
+          ng-repeat="item in navbarCtrl.items"
+          ui-sref-active="active"
+        >
           <a
             ui-sref="{{item.name}}"
-            ui-sref-active="active"
             ng-bind="item.label"
           ></a>
         </li>
