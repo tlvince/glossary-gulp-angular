@@ -29,7 +29,7 @@ gulp.task('injector:js', ['jshint', 'injector:css'], function () {
         'src/{app,components}/**/*.js',
         '!src/{app,components}/**/*.spec.js',
         '!src/{app,components}/**/*.mock.js'
-      ], {read: false}), {
+      ]).pipe($.angularFilesort()), {
       ignorePath: 'src',
       addRootSlash: false
     }))
