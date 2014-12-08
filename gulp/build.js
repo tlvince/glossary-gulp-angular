@@ -44,7 +44,7 @@ gulp.task('partials', function () {
       quotes: true
     }))
     .pipe($.angularTemplatecache('templateCacheHtml.js', {
-      module: 'a'
+      module: 'glossaryGulpAngular'
     }))
     .pipe(gulp.dest('.tmp/inject/'));
 });
