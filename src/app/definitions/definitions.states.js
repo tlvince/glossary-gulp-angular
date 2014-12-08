@@ -7,6 +7,9 @@ angular.module('glossaryGulpAngular')
       parent: 'index',
       templateUrl: 'app/definitions/definitions.html',
       controller: 'DefinitionsCtrl',
-      controllerAs: 'definitionsCtrl'
+      controllerAs: 'definitionsCtrl',
+      data: {
+        label: 'Definitions'
+      }
     });
   });
