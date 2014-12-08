@@ -1,6 +1,6 @@
 {
-  "name": "a",
-  "version": "0.0.0",
+  "name": "glossary-gulp-angular",
+  "version": "1.0.0",
   "dependencies": {},
   "devDependencies": {
     "browser-sync": "~1.7.1",
