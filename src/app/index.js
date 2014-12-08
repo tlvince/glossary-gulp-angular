@@ -2,5 +2,6 @@
 
 angular.module('glossaryGulpAngular', [
   'ui.router',
-  'definitions'
+  'definitions',
+  'about'
 ]);
